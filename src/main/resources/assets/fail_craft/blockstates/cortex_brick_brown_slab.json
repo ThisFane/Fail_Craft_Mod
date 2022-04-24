@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fail_craft:block/cortex_brick_brown_slab"
+    },
+    "type=double": {
+      "model": "fail_craft:block/cortex_brick_brown"
+    },
+    "type=top": {
+      "model": "fail_craft:block/cortex_brick_brown_slab_top"
+    }
+  }
+}

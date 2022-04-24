@@ -1,0 +1,68 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "fail_craft:block/fail_tank",
+		"1": "fail_craft:block/plasma",
+		"particle": "fail_craft:block/fail_tank"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [2, 2, 2],
+			"to": [14, 14, 14],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 2.25, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 2.25, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"firstperson_righthand": {
+			"translation": [-1.75, 3.25, 0.5],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"firstperson_lefthand": {
+			"translation": [-1.75, 3.25, 0.5],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"ground": {
+			"translation": [0, 0.25, 0],
+			"scale": [0.47, 0.47, 0.47]
+		},
+		"gui": {
+			"rotation": [23, 15, -2],
+			"translation": [0.25, 0, 0],
+			"scale": [0.6543, 0.6543, 0.6543]
+		},
+		"head": {
+			"translation": [0, 15, 0],
+			"scale": [1.12305, 1.12305, 1.12305]
+		},
+		"fixed": {
+			"translation": [0, 0, 5.75]
+		}
+	}
+}

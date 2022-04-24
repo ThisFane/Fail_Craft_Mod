@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fail_craft:item/khaos_cooking_knife"
+  }
+}

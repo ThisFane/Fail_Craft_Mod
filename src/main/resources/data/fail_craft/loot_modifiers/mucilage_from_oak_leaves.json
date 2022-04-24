@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "condition": "block_state_property",
+      "block": "minecraft:oak_leaves"
+    }
+  ],
+  "addition": "fail_craft:mucilage",
+  "type": "fail_craft:mucilage_from_oak_leaves"
+}
+
+
+
+
+

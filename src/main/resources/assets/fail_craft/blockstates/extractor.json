@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "fail_craft:block/extractor"},
+    "facing=east": {"model": "fail_craft:block/extractor", "y": 90},
+    "facing=south": {"model": "fail_craft:block/extractor","y": 180},
+    "facing=west": {"model": "fail_craft:block/extractor", "y": 270}
+  }
+}

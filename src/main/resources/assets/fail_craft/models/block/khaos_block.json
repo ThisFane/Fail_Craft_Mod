@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "fail_craft:block/khaos_block_top",
+    "side": "fail_craft:block/khaos_block"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fail_craft:khaos_block"
+    },
+    {
+      "item": "fail_craft:khaos_block"
+    },
+    {
+      "item": "fail_craft:khaos_block"
+    },
+    {
+      "item": "fail_craft:khaos_block"
+    }
+  ],
+  "result": {
+    "item": "fail_craft:khaos_brick",
+    "count": 4
+  }
+}

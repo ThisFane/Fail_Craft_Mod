@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "fail_craft:khaos_flower"
+  },
+  "result": "fail_craft:khaos_dust",
+  "experience": 0.6,
+  "cookingtime": 25
+}

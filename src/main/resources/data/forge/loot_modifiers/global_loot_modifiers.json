@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "entries": [
+    "fail_craft:mucilage_from_oak_leaves",
+    "fail_craft:mucilage_from_birch_leaves",
+    "fail_craft:mucilage_from_acacia_leaves",
+    "fail_craft:mucilage_from_azalea_leaves",
+    "fail_craft:mucilage_from_dark_oak_leaves",
+    "fail_craft:mucilage_from_jungle_leaves",
+    "fail_craft:mucilage_from_spruce_leaves"
+
+  ]
+}

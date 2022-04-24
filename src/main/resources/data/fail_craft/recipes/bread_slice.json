@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:tools/kitchen_knifes"
+    },
+    {
+      "item": "minecraft:bread"
+    }
+  ],
+  "result": {
+    "item": "fail_craft:sliced_bread",
+    "count": 5
+  }
+}

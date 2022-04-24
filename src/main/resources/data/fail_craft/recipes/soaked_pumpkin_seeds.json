@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fail_craft:drinking_water"
+    },
+    {
+      "item": "minecraft:pumpkin_seeds"
+    }
+  ],
+  "result": {
+    "item": "fail_craft:soaked_pumpkin_seeds",
+    "count": 1
+  }
+}

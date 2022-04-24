@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fail_craft:block/cortex_brick_cyan"
+  }
+}

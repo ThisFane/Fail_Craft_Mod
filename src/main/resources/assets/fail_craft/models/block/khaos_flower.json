@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "fail_craft:block/khaos_flower"
+  }
+}

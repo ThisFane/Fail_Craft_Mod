@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "fail_craft:wooden_cooking_knife",
+    "fail_craft:iron_cooking_knife",
+    "fail_craft:iron_cooking_knife",
+    "fail_craft:diamond_cooking_knife",
+    "fail_craft:khaos_cooking_knife"
+  ]
+}

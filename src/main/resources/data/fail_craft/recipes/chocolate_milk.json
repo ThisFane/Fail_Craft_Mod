@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fail_craft:cocoa_dust"
+    },
+    {
+      "item": "fail_craft:pumpkin_milk"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "fail_craft:chocolate_milk",
+    "count": 1
+  }
+}

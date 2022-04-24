@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "fail_craft:block/cortex_brick",
+    "top": "fail_craft:block/cortex_brick",
+    "side": "fail_craft:block/cortex_brick"
+  }
+}

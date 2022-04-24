@@ -1,0 +1,41 @@
+{
+  "item.fail_craft.khaos_crystal": "Khaos Crystal",
+  "item.fail_craft.khaos_dust": "Khaos Dust",
+  "item.fail_craft.mucilage": "Mucilage",
+  "item.fail_craft.block_crusher": "Block Crusher",
+  "item.fail_craft.soaked_pumpkin_seeds": "Soaked Pumpkin Seeds",
+  "item.fail_craft.drinking_water": "Drinking Water",
+  "item.fail_craft.pumpkin_milk": "Pumpkin Milk",
+  "item.fail_craft.fresh_milk": "Fresh Milk",
+  "item.fail_craft.cocoa_dust": "Cocoa Dust",
+  "item.fail_craft.chocolate_milk": "Chocolate Milk",
+  "item.fail_craft.sugar_water": "Sugar Water",
+  "item.fail_craft.caramel": "Caramel",
+  "item.fail_craft.butter": "Butter",
+  "item.fail_craft.sliced_bread": "Sliced Bread",
+
+
+  "item.fail_craft.wooden_cooking_knife": "Wooden Cooking Knife",
+  "item.fail_craft.stone_cooking_knife": "Stone Cooking Knife",
+  "item.fail_craft.iron_cooking_knife": "Iron Cooking Knife",
+  "item.fail_craft.diamond_cooking_knife": "Diamond Cooking Knife",
+  "item.fail_craft.khaos_cooking_knife": "Khaos Cooking Knife",
+
+
+  "block.fail_craft.khaos_ore": "Khaos Ore",
+  "block.fail_craft.khaos_block": "Khaos Block",
+  "block.fail_craft.khaos_brick": "Khaos Brick",
+
+  "block.fail_craft.cortex_brick": "Cortex Brick",
+
+  "block.fail_craft.glowing_khaos_block": "Glowing Khaos Block",
+  "block.fail_craft.glowing_khaos_brick": "Glowing Khaos Brick",
+  "block.fail_craft.khaos_flower": "Khaos Flower",
+  "block.fail_craft.pot_khaos_flower": "Khaos Flower in a pot UwU",
+
+
+
+  "itemGroup.fail_craft": "Fail Craft"
+}
+
+

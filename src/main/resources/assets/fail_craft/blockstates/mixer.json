@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "fail_craft:block/mixer","y": 180},
+    "facing=east": {"model": "fail_craft:block/mixer","y": 270},
+    "facing=south": {"model": "fail_craft:block/mixer"},
+    "facing=west": {"model": "fail_craft:block/mixer", "y": 90}
+  }
+}

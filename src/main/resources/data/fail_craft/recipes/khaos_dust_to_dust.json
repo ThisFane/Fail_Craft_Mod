@@ -1,0 +1,11 @@
+{
+  "type": "fail_craft:extracting",
+  "ingredients": [
+    {
+    "item": "fail_craft:khaos_dust"
+    }
+  ],
+  "output": {
+    "item": "fail_craft:anima_dust"
+  }
+}

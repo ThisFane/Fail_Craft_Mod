@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#D#",
+    "###"
+  ],
+  "key": {
+    "D": {
+      "item": "fail_craft:mucilage"
+    },
+    "#": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "fail_craft:mixing_cup",
+    "count": 1
+  }
+}
