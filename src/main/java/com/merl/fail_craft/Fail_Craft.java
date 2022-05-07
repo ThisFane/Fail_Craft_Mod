@@ -2,6 +2,7 @@ package com.merl.fail_craft;
 
 import com.merl.fail_craft.block.Modblocks;
 import com.merl.fail_craft.block.entity.ModBlockEntities;
+import com.merl.fail_craft.effect.ModEffect;
 import com.merl.fail_craft.item.ModItems;
 import com.merl.fail_craft.recipe.ModRecipes;
 import com.merl.fail_craft.screen.ExtractorScreen;
@@ -41,6 +42,8 @@ public class Fail_Craft
         ModMenuTypes.register(eventBus);
         ModRecipes.register(eventBus);
 
+        ModEffect.register(eventBus);
+
         eventBus.addListener(this::setup);
         eventBus.addListener(this::clientSetup);
 
@@ -55,6 +58,8 @@ public class Fail_Craft
         ItemBlockRenderTypes.setRenderLayer(Modblocks.MIXER.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(Modblocks.CORTEX_CORE.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(Modblocks.CORTEX_CORE.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(Modblocks.PLASMATIC_LEAVES.get(), RenderType.cutout());
+
 
         MenuScreens.register(ModMenuTypes.EXTRACTOR_MENU.get(), ExtractorScreen::new);
     }

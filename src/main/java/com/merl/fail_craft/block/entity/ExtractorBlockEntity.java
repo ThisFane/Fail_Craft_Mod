@@ -1,16 +1,13 @@
 package com.merl.fail_craft.block.entity;
 
 
-import com.merl.fail_craft.item.ModItems;
 import com.merl.fail_craft.recipe.ExtractorRecipes;
 import com.merl.fail_craft.screen.ExtractorMenu;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
-import net.minecraft.data.tags.TagsProvider;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TextComponent;
-import net.minecraft.world.Container;
 import net.minecraft.world.Containers;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.SimpleContainer;
@@ -20,8 +17,6 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.ContainerData;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
-import net.minecraft.world.item.alchemy.PotionUtils;
-import net.minecraft.world.item.alchemy.Potions;
 import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -37,7 +32,7 @@ import org.jetbrains.annotations.Nullable;
 
 import javax.annotation.Nonnull;
 import java.util.Optional;
-
+import java.util.Random;
 
 
 public class ExtractorBlockEntity extends BlockEntity implements MenuProvider {
@@ -195,6 +190,10 @@ public class ExtractorBlockEntity extends BlockEntity implements MenuProvider {
     }
 
 
+    public static int itemChance(){
+        return new Random().nextInt(0,2);
+    }
+
 
     private static void craftItem(ExtractorBlockEntity entity) {
         Level level = entity.level;
@@ -209,22 +208,24 @@ public class ExtractorBlockEntity extends BlockEntity implements MenuProvider {
                 .getRecipeFor(ExtractorRecipes.Type.INSTANCE, inventory, level);
 
         if(match.isPresent()) {
+
             entity.itemHandler.extractItem(0,1, false);
             entity.itemHandler.extractItem(1,1, false);
 
             entity.itemHandler.setStackInSlot(2, new ItemStack(match.get().getResultItem().getItem(),
-                    entity.itemHandler.getStackInSlot(3).getCount() + 1));
+                    entity.itemHandler.getStackInSlot(3).getCount() + itemChance()));
             entity.itemHandler.setStackInSlot(3, new ItemStack(match.get().getResultItem().getItem(),
-                    entity.itemHandler.getStackInSlot(3).getCount() + 1));
+                    entity.itemHandler.getStackInSlot(3).getCount() + itemChance()));
             entity.itemHandler.setStackInSlot(4, new ItemStack(match.get().getResultItem().getItem(),
-                    entity.itemHandler.getStackInSlot(4).getCount() + 1));
+                    entity.itemHandler.getStackInSlot(4).getCount() + itemChance()));
             entity.itemHandler.setStackInSlot(5, new ItemStack(match.get().getResultItem().getItem(),
-                    entity.itemHandler.getStackInSlot(5).getCount() + 1));
+                    entity.itemHandler.getStackInSlot(5).getCount() + itemChance()));
             entity.itemHandler.setStackInSlot(6, new ItemStack(match.get().getResultItem().getItem(),
-                    entity.itemHandler.getStackInSlot(6).getCount() + 1));
+                    entity.itemHandler.getStackInSlot(6).getCount() + itemChance()));
             entity.itemHandler.setStackInSlot(7, new ItemStack(match.get().getResultItem().getItem(),
-                    entity.itemHandler.getStackInSlot(7).getCount() + 1));
+                    entity.itemHandler.getStackInSlot(7).getCount() + itemChance()));
 
+            System.out.println(itemChance());
             entity.resetProgress();
         }
     }

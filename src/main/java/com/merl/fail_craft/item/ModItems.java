@@ -42,6 +42,10 @@ public class ModItems {
     public static final RegistryObject<Item> KHAOS_COOKING_KNIFE = ITEMS.register("khaos_cooking_knife", () -> new  KnifeItem(properties -> new Item.Properties().durability(2047).tab(ModCreativModeTap.Fail_Craft)));
     public static final RegistryObject<Item> MIXING_CUP = ITEMS.register("mixing_cup", () -> new  KnifeItem(properties -> new Item.Properties().durability(999).tab(ModCreativModeTap.Fail_Craft)));
 
+    public static final RegistryObject<Item> WIND_WAND = ITEMS.register("wind_wand", () -> new windWandItem(new Item.Properties().tab(ModCreativModeTap.Fail_Craft).rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> FIRE_WAND = ITEMS.register("fire_wand", () -> new fireWandItem(new Item.Properties().tab(ModCreativModeTap.Fail_Craft).rarity(Rarity.EPIC)));
+
+
 
     //Food items
     public static final RegistryObject<Item> Soaked_Pumpkin_Seeds = ITEMS.register("soaked_pumpkin_seeds", () -> new Item(new Item.Properties().tab(ModCreativModeTap.Fail_Craft).rarity(Rarity.UNCOMMON)));

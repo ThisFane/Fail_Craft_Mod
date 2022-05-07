@@ -26,6 +26,7 @@ public class Modblocks {
     public static final RegistryObject<Block> KHAOS_BLOCK = registerBlock("khaos_block", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(1F).requiresCorrectToolForDrops()), ModCreativModeTap.Fail_Craft);
     public static final RegistryObject<Block> KHAOS_BRICK = registerBlock("khaos_brick", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(1F).requiresCorrectToolForDrops()), ModCreativModeTap.Fail_Craft);
     public static final RegistryObject<Block> CORTEX_CORE = registerBlock("cortex_core", () -> new CortexCoreBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1F).requiresCorrectToolForDrops().noOcclusion()), ModCreativModeTap.Fail_Craft);
+    public static final RegistryObject<Block> PLASMATIC_LEAVES = registerBlock("plasmatic_leaves", () -> new CortexCoreBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1F).requiresCorrectToolForDrops().noOcclusion()), ModCreativModeTap.Fail_Craft);
 
 
     public static final RegistryObject<Block> CORTEX_BRICK = registerBlock("cortex_brick", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(1F).requiresCorrectToolForDrops()), ModCreativModeTap.Fail_Craft);
